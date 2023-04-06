@@ -1,0 +1,217 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Why France Gallery?">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Why France Gallery?</title>
+	
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+	
+
+	<style>
+		body{
+			font-size:16px;
+			margin:0;
+			padding:0;
+			color:#222222;
+		}
+		* {
+			box-sizing:border-box;
+		}
+		.france_gallery_wp{
+			background-color:#F6F3F1;
+			display:inline-block;
+			width:100%;
+			padding:70px 0;
+		}
+		.gallery_title{
+			text-align:center;
+			margin-bottom:50px;
+			width:100%;
+		}
+		.gallery_title h1{
+			font-size:50px;
+			margin:0 0 25px 0;
+			font-family: 'Courgette', cursive;
+			display:inline-block;
+			width:100%;
+		}
+		.container_block{
+			max-width:1170px;
+			margin:0 auto;
+		}
+		.gallery_block{
+			text-align:center;
+			width:33.33%;
+			flex:0 0 33.33%;
+		}
+		.gallery_block:hover .gallery_block_inner{
+			box-shadow:0 0 5px 6px rgba(164, 1, 1, 0.1);
+		}
+		.gallery_block_inner{
+			padding:20px 6px;
+			transition: all 0.5s ease;
+			border-radius:15px;
+			margin:0 10px;
+			display:flex;
+			flex-direction:column;
+			align-items:center;
+			height:100%;
+		}
+		.gallery_block h3{
+			font-size:28px;
+			margin-top:0;
+			margin-bottom:20px;
+			font-family: 'Courgette', cursive;
+		}
+		.gallery_block p{
+			font-family: 'Raleway', sans-serif;
+			font-size:16px;
+			font-weight:500;
+			line-height:24px;
+			margin:0;
+			padding:0 15px;
+		}
+		.gallery_icon{
+			margin-bottom:20px;
+		}
+		.gallery_block_inner:hover .gallery_icon img{
+			transform: scale(1.1);
+		}
+		.gallery_icon img{
+			width:130px;
+			transition: all 0.5s ease;
+		}
+		.read_more_btn{
+			text-decoration:none;
+			margin-top:auto;
+			display:inline-block;
+			font-size:18px;
+			font-weight:500;
+			color:#ffffff;
+			font-family: 'Raleway', sans-serif;
+			background-color:#A40101;
+			padding:12px 30px;
+			border-radius:5px;
+		}
+		.gallery_block_box{
+			display:flex;
+			max-width:100%;
+		}
+		.gallery_text{
+			margin-bottom:20px;
+		}
+		@media only screen and (max-width: 1200px) {
+			.gallery_block h3{
+				font-size:28px;
+			}
+		}
+		@media only screen and (max-width: 1100px) {
+			.gallery_block h3{
+				font-size:24px;
+			}
+		}
+		@media only screen and (max-width: 991px) {
+			.gallery_block{
+				margin-bottom:30px;
+			}
+			.gallery_block_box {
+				display: flex;
+				max-width: 100%;
+				flex-wrap: wrap;
+				justify-content: center;
+			}
+			.gallery_block {
+				text-align: center;
+				width: 50%;
+				flex: 0 0 50%;
+			}
+			.gallery_list_block {
+				display:flex;
+				justify-content:center;
+				flex-wrap:wrap;
+			}
+		}
+		@media only screen and (max-width: 767px) {
+			.gallery_block {
+				text-align: center;
+				width: 100%;
+				flex: 0 0 100%;
+			}
+			.gallery_block p {
+				max-width: 440px;
+				margin: 0 auto;
+			}
+			.gallery_title h1{
+				font-size:44px;
+			}
+		}
+		@media only screen and (max-width: 480px) {
+			.gallery_block p {
+				max-width: 400px;
+			}
+			.gallery_title h1{
+				font-size:38px;
+			}
+		}
+		@media only screen and (max-width: 425px) {
+			.gallery_block p {
+				max-width: 100%;
+				padding:0;
+			}
+		}
+	</style>
+	
+</head>
+
+<body>
+	<section class="france_gallery_wp">
+		<div class="container_block">
+			<div class="gallery_list_block">
+				<div class="gallery_title">
+					<h1>why France Gallery?</h1>
+				</div>
+				<div class="gallery_block_box">
+					<div class="gallery_block">
+						<div class="gallery_block_inner">
+							<div class="gallery_icon">
+								<img alt="" src="images/perfume.png">
+							</div>
+							<h3>Spellbinding vintage scents</h3>
+							<div class="gallery_text"><p>Our exquisite niche perfumes will suit the most sophisticated taste. The broad selection of tempting scents will leave you speechless.</p></div>
+							<a class="read_more_btn" href="#">Read More</a>
+						</div>
+					</div>
+					<div class="gallery_block">
+						<div class="gallery_block_inner">
+							<div class="gallery_icon">
+								<img alt="" src="images/shopping-bag.png">
+							</div>
+							<h3>Brick and mortar stores</h3>
+							<div class="gallery_text"><p>France Gallery is more than an online service. You can visit our stores in the beating heart of Kuwait.</p></div>
+							<a class="read_more_btn" href="#">Read More</a>
+						</div>
+					</div>
+					<div class="gallery_block">
+						<div class="gallery_block_inner">
+							<div class="gallery_icon">
+								<img alt="" src="images/interact.png">
+							</div>
+							<h3>Personalized service</h3>
+							<div class="gallery_text"><p>We provide in-store testers as well as tester delivery for our customers: everything for your utmost convenience.</p></div>
+							<a class="read_more_btn" href="#">Read More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+</body>
+</html> 
